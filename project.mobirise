@@ -1,39 +1,31 @@
 {
   "settings": {
+    "name": "Weaver",
     "currentPage": "index.html",
-    "versionFirst": "3.7.3",
-    "versionPublish": "3.7.3",
-    "name": "Weaver Technological Integrations",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
-      "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#3d8eb9",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
-      }
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
     },
-    "favicon": "@PROJECT_PATH@/assets/images/selection-78o-128x113-36.png",
-    "noImageResize": "",
-    "path": "file:///C:/Users/Brian/AppData/Local/Mobirise.com/Mobirise/projects/project-2016-10-09_155835",
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 21,
+    "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Brian/Desktop/Weaver%20Website"
+    "favicon": "@PROJECT_PATH@/assets/images/thisone-128x128.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -41,138 +33,374 @@
       },
       "components": [
         {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Weaver Technological Integrations"
-        },
-        {
-          "_name": "header2",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "color": "#ffffff"
-            },
-            "H3": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "index-header2-0",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/nest-316713-2000x1333-26.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.1",
-            "overlayColor": "#efefef",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/selection-78o-1400x1236-53.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Weaver Technological Integrations",
-          "text": "Application Development, Systems Design, &amp; IT Solutions",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_name": "msg-box5",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "H3": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "index-msg-box5-0",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": "0",
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f1c752",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Weaver Technological Integrations",
+          "text": "Application Development, Systems Design, &amp; IT Solutions",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
-            "showButtons": false
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "10",
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/laptop-1209008-1400x787-27.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wtilogo-1400x1400.png",
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "linkInNewWindow": false,
-              "name": "telescope",
-              "family": "et-line",
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
               "size": 0
             }
           },
-          "title": "SEE WHAT WEAVER CAN BUILD FOR YOU",
-          "text": "To request a free consultation call Brian at 860.375.4374, or email: brian@weaverti.com.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "title": "See What Weaver Can Build for You",
+          "text": "<p>To request a free consultation call Brian at 860.375.4374, or email: brian@weaverti.com.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-b"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/accountant-1794122.svg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Knowledge is power.",
+          "text": "<p>Connect disparate departmental processes with a relational database. Automate your workflow and benefit from a KPI dashboard that allows your data to be a source of insights rather than frustrations.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-j"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "26",
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/integration-2031395.svg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<p>Integrative Design</p>",
+          "text": "Integrate work processes and data flow between departments and enjoy the efficiency that allows your enterprise to focus on its core business.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-h"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "25",
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/database-schema-1895779.svg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Database Professionals",
+          "text": "<p>Our professionals are responsible and qualified. They have the technical expertise to help you leverage your data to make informed business decisions.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-k"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Subscribe to our Newsletter",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>",
+          "form": {
+            "action": "brian@weaverti.com",
+            "alerts": {
+              "success": "Thanks for subscribing to our newsletter!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-3"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/laptop-1209008-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#abdbf2",
+            "overlayOpacity": "0.2"
+          },
+          "title": "How can we help you today?",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\">Contact Us</a>",
+          "form": {
+            "action": "brian@weaverti.com",
+            "alerts": {
+              "success": "Thanks for reaching out! We'll be in touch soon."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#26272c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 Weaver Technological Integrations",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-f",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
         }
       ]
     }
